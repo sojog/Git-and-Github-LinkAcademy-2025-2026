@@ -16,6 +16,11 @@ Comenzi principale
 3. Creare unui commit 
 # git commit -m " .... mesajul propriu zis ...  "
 
+
+Exista posibilitatea sa combin add si commit -> functioneaza doar pentru fisierele TRACKED
+# git commit -am " .... mesajul propriu zis ...  "
+
+
 4. Sincronizarea cu serverul
 # git push
 
