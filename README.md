@@ -37,3 +37,14 @@ Putem combina acesti parametri (flag)
 Pentru a vedea un status scurt
 # git status -s
 # git status --short
+
+
+Comenzi de schimbare a unui commit 
+
+Head^1 -> sterge 1 commit de la HEAD in jos
+Soft -> fisierele din commit raman in STAGED (verde)
+# git reset --soft HEAD^1 
+MIXED -> fisierele din commit raman in MODIFIED (rosu)
+# git reset --mixed HEAD^1 
+HARD -> fisierele din commit sunt sterse -> atentie
+# git reset --hard HEAD^1 
